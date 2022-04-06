@@ -13,7 +13,9 @@ export class HeaderComponent implements OnInit {
 
 
   // Lifecycle method you want to usually use when initializing code i.e HTTP request
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
+  toggleAddTask() {
+    console.log('Toggle')
+  }
 }
